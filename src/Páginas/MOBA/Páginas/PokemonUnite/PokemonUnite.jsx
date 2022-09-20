@@ -38,7 +38,35 @@ export default function PokemonUnite(){
             </Link>
             
         </div>
-        <p> só pra confirmar que chegou em PU</p>
+        <div className='imgs_container'>
+            <div className='imgs1'>
+                <img className='foof' src='https://www.serebii.net/pokemonunite/pokemon/holowear/025-holiday.png' width='290px' height='290px' />
+                <div className='txt_container'>
+                    <div className='txt'>Holiday Pikachu</div>
+                    <div className='txt'>$12</div>
+                </div>
+                <button className='comprar'>ADICIONAR AO CARRINHO</button>
+            </div>
+
+            <div className='imgs1'>
+                <img className='foof' src='https://www.serebii.net/pokemonunite/pokemon/holowear/009-firefighter.png' width='290px' height='290px' />
+                <div className='txt_container'>
+                    <div className='txt'>Blastoise Firefighter</div>
+                    <div className='txt'>$10</div>
+                </div>
+                <button className='comprar'>ADICIONAR AO CARRINHO</button>
+            </div>
+
+            <div className='imgs1'>
+                <img className='foof' src='https://www.serebii.net/pokemonunite/pokemon/holowear/006-armor.png' width='290px' height='290px' />
+                <div className='txt_container'>
+                    <div className='txt'>Charizard Samurái</div>
+                    <div className='txt'>$20</div>
+                </div>
+                <button className='comprar'>ADICIONAR AO CARRINHO</button>
+            </div>
+        </div>
+        <p> Em breve mais skins.</p>
     </div>
 
 </div>
