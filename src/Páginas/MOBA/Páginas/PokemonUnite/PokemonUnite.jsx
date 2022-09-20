@@ -36,12 +36,6 @@ export default function PokemonUnite(){
                     Pokémon Unite
             </button>
             </Link>
-
-            <Link to="/pokemonunite" className='Link'>
-            <button className='navmoba'>
-                    oto jogo
-            </button>
-            </Link>
             
         </div>
         <p> só pra confirmar que chegou em PU</p>

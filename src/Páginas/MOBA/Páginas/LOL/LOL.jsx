@@ -1,6 +1,8 @@
 import React from 'react';
-import './LOL.css'
+import './LOL.css';
 import { Link } from 'react-router-dom';
+
+
 
 export default function LOL(){
     return(
@@ -36,17 +38,10 @@ export default function LOL(){
                     Pokémon Unite
             </button>
             </Link>
-
-            <Link to="/pokemonunite" className='Link'>
-            <button className='navmoba'>
-                    oto jogo
-            </button>
-            </Link>
             
         </div>
-        <p> só pra confirmar que chegou em LOL</p>
-    </div>
 
+    </div>
 </div>
     )
 }

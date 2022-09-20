@@ -1,6 +1,7 @@
 import React from 'react';
 import './ML.css'
 import { Link } from 'react-router-dom';
+import Teste from './images/teste.jpg';
 
 export default function LOL(){
     return(
@@ -36,13 +37,16 @@ export default function LOL(){
                     Pokémon Unite
             </button>
             </Link>
-
-            <Link to="/pokemonunite" className='Link'>
-            <button className='navmoba'>
-                    oto jogo
-            </button>
-            </Link>
-            
+        </div>
+        <div className='imgs_container'>
+            <div className='imgs1'>
+                <img className='foof' src={Teste} width='385px' height='400px' />
+                <div className='txt_container'>
+                    <div className='txt'>nome</div>
+                    <div className='txt'>preço</div>
+                </div>
+                <button className='comprar'>ADICIONAR AO CARRINHO</button>
+            </div>
         </div>
         <p> só pra confirmar que chegou em ML</p>
     </div>
