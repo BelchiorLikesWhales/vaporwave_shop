@@ -39,7 +39,35 @@ export default function ROBLOX(){
 
             
         </div>
-        <p> só pra confirmar que chegou em Roblox</p>
+        <div className='imgs_container'>
+            <div className='imgs1'>
+                <img className='foof' src='https://i.pinimg.com/originals/ab/af/0b/abaf0b8df29c6e618c5d9bbefc30d564.png' width='290px' height='290px' />
+                <div className='txt_container'>
+                    <div className='txt'>Hétero top</div>
+                    <div className='txt'>$1</div>
+                </div>
+                <button className='comprar'>ADICIONAR AO CARRINHO</button>
+            </div>
+
+            <div className='imgs1'>
+                <img className='foof' src='https://i.pinimg.com/originals/32/52/26/3252262efb8dc04178f647f9504f6782.png' width='290px' height='290px' />
+                <div className='txt_container'>
+                    <div className='txt'>Gata estelar</div>
+                    <div className='txt'>$10</div>
+                </div>
+                <button className='comprar'>ADICIONAR AO CARRINHO</button>
+            </div>
+
+            <div className='imgs1'>
+                <img className='foof' src='https://i.pinimg.com/originals/4c/c4/65/4cc465844db47aaa7e0ac9781f24a046.png' width='290px' height='290px' />
+                <div className='txt_container'>
+                    <div className='txt'>Essa fadona</div>
+                    <div className='txt'>$20</div>
+                </div>
+                <button className='comprar'>ADICIONAR AO CARRINHO</button>
+            </div>
+        </div>
+        <p> Em breve mais skins.</p>
     </div>
 
 </div>
