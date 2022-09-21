@@ -1,8 +1,8 @@
 import React from 'react';
-import './moba.css'
+import './mine.css'
 import { Link } from 'react-router-dom';
 
-export default function MOBA(){
+export default function Minecraft(){
     return(
         <div className='container'>
 
@@ -14,39 +14,32 @@ export default function MOBA(){
                 </Link>
             </button>
             <button className='navmoba'>
-                <Link to="/moba" className='Link'>
+                <Link to="/rpg" className='Link'>
                     Início
                 </Link>
             </button>
 
             <button className='navmoba'>
-                <Link to="/lol" className='Link'>
-                    League of Legends
+                <Link to="/mine" className='Link'>
+                    MINECRAFT
                 </Link>
             </button>
             
             <button className='navmoba'>
-                <Link to="/mobilelegends" className='Link'>
-                    Mobile Legends
+                <Link to="/gta" className='Link'>
+                    GTA RP
                 </Link>
             </button>
 
             <button className='navmoba'>
-                <Link to="/pokemonunite" className='Link'>
-                    Pokémon Unite
+                <Link to="/roblox" className='Link'>
+                    ROBLOX
                 </Link>
             </button>
 
+            
         </div>
-            <div className='appexe'>
-                Seja bem-vindo!
-            </div>
-            
-            <div className='window'>
-                <h3>Aqui é onde a aventura começa!</h3>
-                <h3>Escolha o jogo que deseja adquirir Skins.</h3>
-
-            </div>
+        <p> só pra confirmar que chegou em Minecraft</p>
     </div>
 
 </div>
