@@ -36,17 +36,13 @@ export default function MOBA(){
                     Pokémon Unite
                 </Link>
             </button>
-
+            <button className='navmoba'>
+                <Link to="/pokemonunite" className='Link'>
+                    oto jogo
+                </Link>
+            </button>
         </div>
-            <div className='appexe'>
-                Seja bem-vindo!
-            </div>
-            
-            <div className='window'>
-                <h3>Aqui é onde a aventura começa!</h3>
-                <h3>Escolha o jogo que deseja adquirir Skins.</h3>
-
-            </div>
+        <p> só pra confirmar que chegou em inicio</p>
     </div>
 
 </div>

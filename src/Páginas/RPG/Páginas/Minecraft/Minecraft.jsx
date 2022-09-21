@@ -1,8 +1,8 @@
 import React from 'react';
-import './rpg.css'
+import './mine.css'
 import { Link } from 'react-router-dom';
 
-export default function RPG(){
+export default function Minecraft(){
     return(
         <div className='container'>
 
@@ -39,7 +39,7 @@ export default function RPG(){
 
             
         </div>
-        <p> só pra confirmar que chegou em Início do Roblox</p>
+        <p> só pra confirmar que chegou em Minecraft</p>
     </div>
 
 </div>

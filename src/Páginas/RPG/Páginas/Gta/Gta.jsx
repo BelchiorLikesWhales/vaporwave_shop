@@ -1,8 +1,8 @@
 import React from 'react';
-import './rpg.css'
+import './Gta.css'
 import { Link } from 'react-router-dom';
 
-export default function RPG(){
+export default function Gta(){
     return(
         <div className='container'>
 
@@ -37,9 +37,10 @@ export default function RPG(){
                 </Link>
             </button>
 
+
             
         </div>
-        <p> só pra confirmar que chegou em Início do Roblox</p>
+        <p> só pra confirmar que chegou em GTA</p>
     </div>
 
 </div>

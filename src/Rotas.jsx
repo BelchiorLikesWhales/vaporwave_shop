@@ -9,6 +9,10 @@ import Fps from './Páginas/FPS';
 import LOL from './Páginas/MOBA/Páginas/LOL/LOL';
 import MobileLegends from './Páginas/MOBA/Páginas/MobileLegends/MobileLegends';
 import PokemonUnite from './Páginas/MOBA/Páginas/PokemonUnite/PokemonUnite';
+import Minecraft from './Páginas/RPG/Páginas/Minecraft/Minecraft';
+import Gta from './Páginas/RPG/Páginas/Gta/Gta';
+import Roblox from './Páginas/RPG/Páginas/Roblox/Roblox';
+
 
 export default function Rotas() {
   return (
@@ -23,6 +27,10 @@ export default function Rotas() {
         <Route path="/lol" element={<LOL />} />
         <Route path="/mobilelegends" element={<MobileLegends />} />
         <Route path="/pokemonunite" element={<PokemonUnite />} />
+        <Route path="/mine" element={<Minecraft />} />
+        <Route path='/gta' element={<Gta />} />
+        <Route path='/roblox' element={<Roblox />} />
+
       </Routes>
     </BrowserRouter>
   )
