@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import './Roblox.css'
 import { Link } from 'react-router-dom';
@@ -36,9 +35,10 @@ export default function ROBLOX(){
                 <Link to="/roblox" className='Link'>
                     ROBLOX
                 </Link>
-            </button>   
-        </div>
+            </button>
 
+            
+        </div>
         <div className='imgs_container'>
             <div className='imgs1'>
                 <img className='foof' src='https://i.pinimg.com/originals/ab/af/0b/abaf0b8df29c6e618c5d9bbefc30d564.png' width='290px' height='290px' />
@@ -69,55 +69,7 @@ export default function ROBLOX(){
         </div>
         <p> Em breve mais skins.</p>
     </div>
-</div>
-    )
-}
-=======
-import React from 'react';
-import './Roblox.css'
-import { Link } from 'react-router-dom';
-
-export default function ROBLOX(){
-    return(
-        <div className='container'>
-
-    <div className='mainbox'>
-        <div className='navbar'>
-            <button className='navmoba'>
-                <Link to="/" className='Link'>
-                    Home
-                </Link>
-            </button>
-            <button className='navmoba'>
-                <Link to="/rpg" className='Link'>
-                    Início
-                </Link>
-            </button>
-
-            <button className='navmoba'>
-                <Link to="/mine" className='Link'>
-                    MINECRAFT
-                </Link>
-            </button>
-            
-            <button className='navmoba'>
-                <Link to="/gta" className='Link'>
-                    GTA RP
-                </Link>
-            </button>
-
-            <button className='navmoba'>
-                <Link to="/roblox" className='Link'>
-                    ROBLOX
-                </Link>
-            </button>
-
-            
-        </div>
-        <p> só pra confirmar que chegou em Roblox</p>
-    </div>
 
 </div>
     )
 }
->>>>>>> dc936088839f55119d902d3322b106b609ee471c
