@@ -27,3 +27,21 @@
     border-width: 1px;
     
 }
+.appexe{
+    background-color: #348edc;
+    color: #fefefe;
+    font-size: 18px;
+    border: 2px solid black;
+    width: 800px;
+    height: 20px;
+}
+.window{
+    background-color: #fefefe;
+    display: flex;
+    flex-direction:column;
+    border: 2px solid black;
+    width: 800px;
+    height: 200px;
+    color: black;
+    font-size: 12px;
+}
