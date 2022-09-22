@@ -4,6 +4,9 @@ import Home from './Páginas/Home';
 
 //Rotas Battle Royale
 import Battle from './Páginas/Battle Royale';
+import FF from './Páginas/Battle Royale/Páginas/FREEFIRE/Freefire';
+import Fortnite from './Páginas/Battle Royale/Páginas/FORTINITE/Fortnite';
+import PUBG from './Páginas/Battle Royale/Páginas/PUBG/Call';
 
 //Rotas FPS
 import Fps from './Páginas/FPS';
@@ -26,8 +29,11 @@ export default function Rotas() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/battleroyale" element={<Battle />} />
         <Route path="/fps" element={<Fps />} />
+        <Route path="/battleroyale" element={<Battle />} />
+        <Route path='/Freefire' element={<FF />} />
+        <Route path="/fortnite" element={<Fortnite />} />
+        <Route path="/pubg" element={<PUBG />} />
         <Route path="/moba" element={<Moba />} />
         <Route path="/lol" element={<LOL />} />
         <Route path="/mobilelegends" element={<MobileLegends />} />
