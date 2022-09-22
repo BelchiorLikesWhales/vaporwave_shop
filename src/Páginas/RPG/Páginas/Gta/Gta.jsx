@@ -8,35 +8,38 @@ export default function Gta(){
 
     <div className='mainbox'>
         <div className='navbar'>
-            <button className='navmoba'>
-                <Link to="/" className='Link'>
+            <Link to="/" className='Link'>
+                <button className='navmoba'>
                     Home
-                </Link>
-            </button>
-            <button className='navmoba'>
-                <Link to="/rpg" className='Link'>
+                </button>
+            </Link>
+
+            <Link to="/rpg" className='Link'>
+                <button className='navmoba'>
                     Início
-                </Link>
-            </button>
+                </button>
+            </Link>
 
-            <button className='navmoba'>
-                <Link to="/mine" className='Link'>
+            <Link to="/mine" className='Link'>
+                <button className='navmoba'>
                     MINECRAFT
-                </Link>
-            </button>
+                </button>
+            </Link>
             
-            <button className='navmoba'>
-                <Link to="/gta" className='Link'>
+            <Link to="/gta" className='Link'>
+                <button className='navmoba'>
                     GTA RP
-                </Link>
-            </button>
+                </button>
+            </Link>
 
-            <button className='navmoba'>
-                <Link to="/roblox" className='Link'>
+            <Link to="/roblox" className='Link'>
+                <button className='navmoba'>
                     ROBLOX
-                </Link>
-            </button>
+                </button>
+            </Link>
+
         </div>
+        
         <div className='imgs_container'>
             <div className='imgs1'>
                 <img className='foof' src='https://1.bp.blogspot.com/-G9rdNZgaPhA/VtvREF9_YWI/AAAAAAAAE0Y/CT2a8AbnXlc/s1600/rw%2Bfoda%2B2.png' width='290px' height='290px' />

@@ -10,32 +10,32 @@ export default function PokemonUnite(){
         <div className='navbar'>
         <Link to="/" className='Link'>
             <button className='navmoba'>
-                    Home
+                Home
             </button>
         </Link>
 
         <Link to="/moba" className='Link'>
             <button className='navmoba'>
-                    Início
+                Início
             </button>
         </Link>
         <Link to="/lol" className='Link'>
             <button className='navmoba'>
-                    League of Legends
+                League of Legends
             </button>
         </Link>
 
-            <Link to="/mobilelegends" className='Link'>
+        <Link to="/mobilelegends" className='Link'>
             <button className='navmoba'>
-                    Mobile Legends
+                Mobile Legends
             </button>
-            </Link>
+        </Link>
 
-            <Link to="/pokemonunite" className='Link'>
+        <Link to="/pokemonunite" className='Link'>
             <button className='navmoba'>
-                    Pokémon Unite
+                Pokémon Unite
             </button>
-            </Link>
+        </Link>
             
         </div>
         <div className='imgs_container'>

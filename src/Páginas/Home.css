@@ -6,10 +6,10 @@
     padding-top: 100px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 250px;
+    padding-bottom: 100px;
     background-image: linear-gradient(#bb75b8, #99b1d4);
-    width: 1750px;
-    height: 260px;
+    width: 90vw;
+    height: 90vh;
     border: 2px solid black;
 }
 

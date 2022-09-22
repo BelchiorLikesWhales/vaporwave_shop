@@ -8,38 +8,39 @@ export default function MOBA(){
 
     <div className='mainbox'>
         <div className='navbar'>
-            <button className='navmoba'>
-                <Link to="/" className='Link'>
+            <Link to="/" className='Link'>
+                <button className='navmoba'>
                     Home
-                </Link>
-            </button>
-            <button className='navmoba'>
-                <Link to="/moba" className='Link'>
+                </button>
+            </Link>
+
+            <Link to="/moba" className='Link'>
+                <button className='navmoba'>
                     Início
-                </Link>
-            </button>
+                </button>
+            </Link>
 
-            <button className='navmoba'>
-                <Link to="/lol" className='Link'>
+            <Link to="/lol" className='Link'>
+                <button className='navmoba'>
                     League of Legends
-                </Link>
-            </button>
-            
-            <button className='navmoba'>
-                <Link to="/mobilelegends" className='Link'>
-                    Mobile Legends
-                </Link>
-            </button>
+                </button>
+            </Link>
 
-            <button className='navmoba'>
-                <Link to="/pokemonunite" className='Link'>
+            <Link to="/mobilelegends" className='Link'>
+                <button className='navmoba'>
+                    Mobile Legends
+                </button>
+            </Link>
+
+            <Link to="/pokemonunite" className='Link'>
+                <button className='navmoba'>
                     Pokémon Unite
-                </Link>
-            </button>
+                </button>
+            </Link>
 
         </div>
             <div className='appexe'>
-                Seja bem-vindo!
+                Seja_bem_vindo.exe
             </div>
             
             <div className='window'>

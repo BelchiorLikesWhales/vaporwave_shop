@@ -4,50 +4,52 @@ import { Link } from 'react-router-dom';
 
 export default function RPG(){
     return(
-        <div className='container'>
+    <div className='container'>
 
-    <div className='mainbox'>
-        <div className='navbar'>
-            <button className='navmoba'>
+        <div className='mainbox'>
+            <div className='navbar'>
                 <Link to="/" className='Link'>
-                    Home
+                    <button className='navmoba'>
+                            Home
+                    </button>
                 </Link>
-            </button>
-            <button className='navmoba'>
+                
                 <Link to="/rpg" className='Link'>
-                    Início
+                    <button className='navmoba'>
+                        Início                
+                    </button>
                 </Link>
-            </button>
-
-            <button className='navmoba'>
+                
                 <Link to="/mine" className='Link'>
-                    MINECRAFT
+                    <button className='navmoba'>
+                        MINECRAFT
+                    </button>
                 </Link>
-            </button>
-            
-            <button className='navmoba'>
+                
                 <Link to="/gta" className='Link'>
-                    GTA RP
+                    <button className='navmoba'>
+                        GTA RP
+                    </button>
                 </Link>
-            </button>
 
-            <button className='navmoba'>
                 <Link to="/roblox" className='Link'>
-                    ROBLOX
+                    <button className='navmoba'>    
+                        ROBLOX
+                    </button>
                 </Link>
-            </button>
-        </div>
-        <div className='appexe'>
-                Seja bem-vindo!
+
             </div>
-            
+
+            <div className='appexe'>
+                Seja_bem_vindo.exe
+            </div>
+                
             <div className='window'>
                 <h3>Aqui é onde a aventura começa!</h3>
                 <h3>Escolha o jogo que deseja adquirir Skins.</h3>
-
             </div>
-    </div>
+        </div>
 
-</div>
+    </div>
     )
 }
