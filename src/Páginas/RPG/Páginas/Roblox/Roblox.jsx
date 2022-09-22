@@ -8,34 +8,35 @@ export default function ROBLOX(){
 
     <div className='mainbox'>
         <div className='navbar'>
-            <button className='navmoba'>
-                <Link to="/" className='Link'>
+            <Link to="/" className='Link'>
+                <button className='navmoba'>
                     Home
-                </Link>
-            </button>
-            <button className='navmoba'>
-                <Link to="/rpg" className='Link'>
+                </button>
+            </Link>
+
+            <Link to="/rpg" className='Link'>
+                <button className='navmoba'>
                     Início
-                </Link>
-            </button>
+                </button>
+            </Link>
 
-            <button className='navmoba'>
-                <Link to="/mine" className='Link'>
+            <Link to="/mine" className='Link'>
+                <button className='navmoba'>
                     MINECRAFT
-                </Link>
-            </button>
+                </button>
+            </Link>
             
-            <button className='navmoba'>
-                <Link to="/gta" className='Link'>
+            <Link to="/gta" className='Link'>
+                <button className='navmoba'>
                     GTA RP
-                </Link>
-            </button>
+                </button>
+            </Link>
 
-            <button className='navmoba'>
-                <Link to="/roblox" className='Link'>
+            <Link to="/roblox" className='Link'>
+                <button className='navmoba'>
                     ROBLOX
-                </Link>
-            </button>
+                </button>
+            </Link>
 
             
         </div>

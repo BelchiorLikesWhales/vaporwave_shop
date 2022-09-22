@@ -27,17 +27,17 @@ export default function LOL(){
             </button>
         </Link>
 
-            <Link to="/mobilelegends" className='Link'>
+        <Link to="/mobilelegends" className='Link'>
             <button className='navmoba'>
-                    Mobile Legends
+                Mobile Legends
             </button>
-            </Link>
+        </Link>
 
-            <Link to="/pokemonunite" className='Link'>
+        <Link to="/pokemonunite" className='Link'>
             <button className='navmoba'>
-                    Pokémon Unite
+                Pokémon Unite
             </button>
-            </Link>
+        </Link>
             
         </div>
         <div className='imgs_container'>
