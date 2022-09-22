@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
-import Pasta from './pasta.png';
+import Pasta from '../../src/images/pasta.png';
 
 export default function Home() {
     return (
