@@ -10,6 +10,9 @@ import PUBG from './Páginas/Battle Royale/Páginas/PUBG/Call';
 
 //Rotas FPS
 import Fps from './Páginas/FPS';
+import COD from './Páginas/FPS/Páginas/COD/COD';
+import CSGO from './Páginas/FPS/Páginas/CSGO/CSGO';
+import Valorant from './Páginas/FPS/Páginas/VALORANTE/VALORANTE';
 
 // ROTAS MOBA
 import Moba from './Páginas/MOBA';
@@ -30,6 +33,9 @@ export default function Rotas() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/fps" element={<Fps />} />
+        <Route path="/cod" element={<COD />} />
+        <Route path="/csgo" element={<CSGO />} />
+        <Route path='/valorante' element={<Valorant />} />
         <Route path="/battleroyale" element={<Battle />} />
         <Route path='/Freefire' element={<FF />} />
         <Route path="/fortnite" element={<Fortnite />} />
