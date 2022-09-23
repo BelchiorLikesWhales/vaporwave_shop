@@ -54,7 +54,7 @@ export default function Call(){
             <div className='imgs1'>
                 <img className='foto' src='https://s2.glbimg.com/rw5mmlBkcSF1FPIExoeGyqdPbu0=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/G/L/ExQJmZQYAMwv0corQtgg/pubg-skins-bizarras-2.jpg' width='290px' height='290px' />
                 <div className='txt_container'>
-                    <div className='txt'>Coringa e Alerquina</div>
+                    <div className='txt'>Coringa e Arlequina</div>
                     <div className='txt'>$12</div>
                 </div>
                 <button className='comprar'>ADICIONAR AO CARRINHO</button>
